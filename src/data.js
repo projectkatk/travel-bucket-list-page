@@ -20,7 +20,7 @@ const data = [
         imageUrl: "https://images.unsplash.com/photo-1562680802-9cf8b15f419d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8amVqdSUyMGlzbGFuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60"
     },
     {   id: "3",
-        title: "Whitsunday Island",
+        title: "Whitsunday Islands",
         location: "Australia",
         googleMapsUrl: "https://www.google.com/maps/place/Whitsunday+Islands,+Queensland/data=!4m2!3m1!1s0x6bd908192617babf:0x345293e5fe0645b1?sa=X&ved=2ahUKEwip99ziuOf0AhVzSWwGHYRSB1AQ8gF6BAgUEAE",
         startDate: "12 Jan, 2024",
