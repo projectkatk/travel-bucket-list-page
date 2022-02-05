@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+:root {
+  --b-radius: 0.5rem;
+
+  --card-header-color: #fff;
+  --card-header-bg: #0a6dbe;
+
+  --card-text-color: #2B283A;
+  --card-bg-color: #fff;
+  --card-grey-color: #b8b8b8;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient( to bottom, var(--card-bg-color), #c3c5e4);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+a, #headerHome, #emailMe {
+  text-decoration: none;
+  color: var(--card-header-color);
+}
+
+#headerHome {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.main {
+  width: 95%;
+  max-width: 1000px;
+  min-width: 320px;
+  height: auto;
+  margin: 2.5% auto;
+  border-radius: var(--b-radius);
+  background-color: var(--card-bg-color);
+  box-shadow: 1px 2px 10px #0643749c;
+}
+
+header {
+  background-color: var(--card-header-bg);
+  border-radius: var(--b-radius) var(--b-radius) 0 0;
+  height: 55px;
+  color: var(--card-header-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+}
+
+.fa-suitcase-rolling {
+  margin: 0.3rem;
+}
+
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.mainWrapper img {
+  border-radius: var(--b-radius);
+}
+
+.card-info {
+  border-bottom: 0.5px solid var(--card-grey-color);
+}
+
+.card-header {
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+
+.card-header img {
+  width: 7px;
+} 
+
+.card-header span {
+  margin-left: 0.2rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.card-header a {
+  color: var(--card-grey-color);
+  font-size: 0.7rem;
+  margin-left: 1rem;
+  text-decoration: underline;
+}
+
+.card-content {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.card-content h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.card-content h6 {
+  font-size: 0.8rem;
+}
+
+.card-content p {
+  font-size: 0.7rem;
+  color: var(--card-text-color);
+  margin-bottom: 2rem;
+  margin-top: 1.2rem;
+}
+
+.card-content div {
+  position: absolute;
+  top: 18px;
+  right: 1%;
+}
+
+h5.modal-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  .mainWrapper {
+    flex-direction: row;
+    align-items:center; 
+  }
+  .mainWrapper .main-image {
+    width: 250px;
+    height: 100%;    
+    margin-top: 2rem;
+  }
+  .card-info {
+    margin-left: 1rem;    
+  } 
+
+  .card-content h2 {
+    font-size: 1.5rem;
+  }
+}
