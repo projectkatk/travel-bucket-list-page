@@ -14,7 +14,7 @@ const Card = (props) => {
                 </div>
                 <div className="card-content">
                     <h2>{props.title}</h2>
-                    <h6>{props.startDate} - {props.endDate}</h6>
+                    <h6 id="dateRange">{props.startDate} - {props.endDate}</h6>
                     <ContactMe />
                     <p>{props.description}</p>
                 </div>

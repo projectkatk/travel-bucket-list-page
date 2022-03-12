@@ -36,7 +36,7 @@ export default function ContactMe() {
             </ModalBody>
             <ModalFooter>
                 <Button
-                color="primary"
+                    color="primary"
                 >
                 <a id='emailMe' href='mailto:example@email.email'>Email me</a>
                 </Button>

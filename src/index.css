@@ -26,13 +26,12 @@ a, #headerHome, #emailMe {
 
 #headerHome {
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .main {
   width: 95%;
   max-width: 1000px;
-  min-width: 320px;
   height: auto;
   margin: 2.5% auto;
   border-radius: var(--b-radius);
@@ -81,7 +80,7 @@ header {
 
 .card-header span {
   margin-left: 0.2rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
 }
 
@@ -102,7 +101,7 @@ header {
   font-weight: bold;
 }
 .card-content h6 {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .card-content p {
@@ -118,6 +117,10 @@ header {
   right: 1%;
 }
 
+.card-content .btn {
+  font-size: 0.7rem;
+}
+
 h5.modal-title {
   width: 100%;
   display: flex;
@@ -129,6 +132,11 @@ footer {
 }
 
 @media (min-width: 700px) {
+
+  #headerHome {
+    font-size: 1rem;
+  }
+
   .mainWrapper {
     flex-direction: row;
     align-items:center; 
