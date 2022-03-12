@@ -6,7 +6,7 @@
   --card-header-color: #fff;
   --card-header-bg: #0a6dbe;
 
-  --card-text-color: #2B283A;
+  --card-text-color: #494752;
   --card-bg-color: #fff;
   --card-grey-color: #b8b8b8;
 }
@@ -106,7 +106,7 @@ header {
 }
 
 .card-content p {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   color: var(--card-text-color);
   margin-bottom: 2rem;
   margin-top: 1.2rem;
