@@ -161,4 +161,8 @@ footer {
   .card-content h2 {
     font-size: 1.5rem;
   }
+
+  .card-content .btn {
+    font-size: 1rem;
+  }
 }
