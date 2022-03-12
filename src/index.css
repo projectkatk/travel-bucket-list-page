@@ -63,6 +63,7 @@ header {
 
 .mainWrapper img {
   border-radius: var(--b-radius);
+  max-height: 400px;
 }
 
 .card-info {

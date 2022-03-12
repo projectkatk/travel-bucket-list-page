@@ -5,7 +5,7 @@ import ContactMe from "../components/ContactMe"
 const Card = (props) => {
     return (
         <div className="mainWrapper">
-            <img className="main-image" src={`${props.imageUrl}`} alt="df" />
+            <img className="main-image img-fluid" src={`${props.imageUrl}`} alt="df" />
             <div className="card-info">
                 <div className="card-header">
                     <img src={mapdot} alt="dot" />
